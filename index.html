@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SugarCrafters Bakery</title>
+    <!-- إضافة الخط من Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="perfectcss.css">
+    <script src="perfectjs.js" defer></script>
+    <head>
+        <!-- إضافة مكتبة Boxicons -->
+        <link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <header>
+        <div class="logo">
+            <h1>SugarCrafters Bakery</h1>
+        </div>
+        <div class="logo-right">
+            <img id="logo" src="logo.jpg" alt="شعار المخبز">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#cakes">الكيك</a></li>
+                <li><a href="#cookies">الكوكيز</a></li>
+                <li><a href="#pies">الفطائر</a></li>
+                <li><a href="#croissants">الكرواسون</a></li>
+                <li><a href="#juices">العصائر</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم المنتجات -->
+    <section id="products" class="product-categories">
+        <h2>منتجاتنا</h2>
+
+        <!-- كيك -->
+        <div class="category">
+            <a href="#cakes">
+                <div class="product">
+                    <img src="cake.png" alt="كعك شوكولاتة">
+                    <p>كعك مميز</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- كوكيز -->
+        <div class="category">
+            <a href="#cookies">
+                <div class="product">
+                    <img src="cookies.png" alt="بسكويت شوكولاتة">
+                    <p>بسكويت مقرمش</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- فطائر -->
+        <div class="category">
+            <a href="#pies">
+                <div class="product">
+                    <img src="pie.png" alt="فطائر طازجة">
+                    <p>فطائر لذيذة</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- كرواسون -->
+        <div class="category">
+            <a href="#croissants">
+                <div class="product">
+                    <img src="croissant.png" alt="كرواسون طازج">
+                    <p>كرواسون طازج</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- عصائر -->
+        <div class="category">
+            <a href="#juices">
+                <div class="product">
+                    <img src="drink.png" alt="عصير طبيعي">
+                    <p>مشروبات</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="social-media">
+        <div class="networks">
+            <a href="https://www.instagram.com/sugarcrafters2024?igsh=MWViaHU0bndvM250OA%3D%3D&utm_source=qr" target="_blank">
+                <i class='bx bxl-instagram-alt bx-lg'></i>
+            </a>
+            <a href=https://x.com/sugarcrafters24?s21"" target="_blank">
+                <i class='bx bxl-twitter bx-lg'></i>
+            </a>
+            <a href="https://www.tiktok.com/@sugarcrafters24?_t=8rYRGjt6tnj&_r=1" target="_blank">
+                <i class='bx bxl-tiktok bx-lg'></i>
+            </a>
+            <a href="https://youtube.com/@sugarcrafters?si=bGjNaOtZr1QeTSZG" target="_blank">
+                <i class='bx bxl-youtube bx-lg'></i>
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- قسم التقييمات -->
+<section id="reviews" class="reviews-section">
+    <h2>تقييمات العملاء</h2>
+    <form action="perfectphp.php" method="POST">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required placeholder="أدخل بريدك الإلكتروني">
+
+        <label for="rating">التقييم:</label>
+        <select id="rating" name="rating" required>
+            <option value="5">5 نجوم</option>
+            <option value="4">4 نجوم</option>
+            <option value="3">3 نجوم</option>
+            <option value="2">2 نجوم</option>
+            <option value="1">1 نجمة</option>
+        </select>
+
+        <label for="message">التعليق:</label>
+        <textarea id="message" name="message" required placeholder="اكتب تعليقك هنا"></textarea>
+
+        <button type="submit">إرسال التقييم</button>
+    </form>
+</section>
+
+<!-- الأسئلة الشائعة -->
+<section id="faq">
+    <h2>الأسئلة الشائعة</h2>
+    <div class="faq-item">
+        <p><strong>ما هي المكونات التي تحتويها منتجاتكم؟</strong></p>
+        <p>جميع منتجاتنا مصنوعة من مكونات طبيعية مثل الدقيق، السكر، الزبدة، والشوكولاتة الفاخرة.</p>
+    </div>
+    <div class="faq-item">
+        <p><strong>هل يمكن تخصيص المنتجات للمناسبات؟</strong></p>
+        <p>نعم، نحن نقدم خدمات تخصيص للمنتجات حسب رغبتكم.</p>
+    </div>
+</section>
+
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2024 SugarCrafters Bakery - جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
