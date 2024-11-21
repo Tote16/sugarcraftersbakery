@@ -1,0 +1,375 @@
+/* تحديد الخط من Google Fonts */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #FFEBEE;
+    margin: 0;
+}
+
+/* الشريط العلوي */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFB6C1; /* وردي فاتح */
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: white;
+}
+
+header .logo-right img {
+    width: 50px;
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* قسم المنتجات */
+.product-categories {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #FFEBEE; /* لون خلفية خفيف */
+}
+
+.category {
+    display: inline-block;
+    margin: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+/* تأثير التمرير (hover) */
+.product:hover img {
+    transform: scale(1.1);
+}
+
+/* مواقع التواصل الاجتماعي */
+#social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #F06292; /* أصفر ذهبي */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+/* الفورم */
+#contact form {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #FFB6C1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* الأسئلة الشائعة */
+#faq {
+    padding: 20px;
+    background-color: #FFEBEE;
+    text-align: center;
+}
+
+.faq-item {
+    margin: 10px 0;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB6C1;
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+#contact {
+    text-align: center; /* لتوسيط النص */
+    margin-top: 50px; /* زيادة المسافة العلوية للنص */
+}
+
+#logo {
+    position: absolute; /* وضع اللوجو في مكان ثابت */
+    top: 20px; /* المسافة من أعلى الصفحة */
+    right: 100px; /* زيادة المسافة من يمين الصفحة لإبعاد اللوجو */
+    width: 60px; /* تحديد عرض الشعار */
+    height: 60px; /* تحديد ارتفاع الشعار */
+    border-radius: 50%; /* جعل الشعار دائريًا */
+    object-fit: cover; /* التأكد من أن الصورة تملأ الشكل الدائري */
+}
+
+/* الشريط العلوي */
+header {
+    display: flex;
+    justify-content: flex-start; /* وضع العناصر في البداية (على اليسار) */
+    align-items: center; /* محاذاة العناصر عموديًا في المنتصف */
+    padding: 20px;
+    background-color: #FFB6C1; /* وردي فاتح */
+}
+
+header .logo {
+    display: flex;
+    align-items: center; /* محاذاة الشعار والنص في صف واحد */
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px; /* مسافة بين الشعار والنص */
+}
+
+header .logo-right img {
+    width: 50px;
+    height: 50px;
+}
+
+/* الشريط العلوي */
+header {
+    display: flex;
+    justify-content: center; /* توسيط العناصر أفقياً داخل الشريط */
+    align-items: center; /* محاذاة العناصر عمودياً في المنتصف */
+    padding: 20px;
+    background-color: #FFB6C1; /* وردي فاتح */
+}
+
+header .logo {
+    display: flex;
+    align-items: center; /* محاذاة الشعار والنص في صف واحد */
+    margin-right: 30px; /* إضافة مسافة بين الشعار والنص والقائمة */
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px; /* مسافة بين الشعار والنص */
+}
+
+header .logo-right img {
+    width: 50px;
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* توسيط قائمة التنقل */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* الشريط العلوي */
+header {
+    display: flex;
+    justify-content: space-between; /* توزيع العناصر بشكل متساوي بين الطرفين */
+    align-items: center; /* محاذاة العناصر عمودياً في المنتصف */
+    padding: 20px;
+    background-color: #FFB6C1; /* وردي فاتح */
+}
+
+/* محاذاة الشعار والنص في أقصى اليسار */
+header .logo {
+    display: flex;
+    align-items: center; /* محاذاة الشعار والنص في صف واحد */
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px; /* مسافة بين الشعار والنص */
+}
+
+header .logo-right img {
+    width: 50px;
+    height: 50px;
+}
+
+/* قائمة التنقل تكون في المنتصف */
+header nav {
+    display: flex;
+    justify-content: center; /* توسيط قائمة التنقل */
+    flex-grow: 1; /* جعل القائمة تأخذ المساحة المتبقية */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* قسم التقييمات */
+.reviews-section {
+    padding: 50px 10px;
+    background-color: #FFEBEE; /* نفس لون الخلفية للقسم */
+    text-align: center;
+}
+
+/* تنسيق النموذج */
+.reviews-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.reviews-section input, 
+.reviews-section select, 
+.reviews-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.reviews-section button {
+    padding: 10px 20px;
+    background-color: #FFB6C1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reviews-section button:hover {
+    background-color: #FF8C94;
+}
+
+/* الأسئلة الشائعة */
+#faq {
+    padding: 50px 10px;
+    background-color: #FFEBEE;
+    text-align: center;
+}
+
+.faq-item {
+    margin: 20px 0;
+}
+
+.faq-item p {
+    font-size: 16px;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB6C1;
+    color: white;
+    margin-top: 50px;
+}
+
+.social-media {
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+}
+
+/* تنسيق أيقونات الشبكات الاجتماعية */
+#social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB6C1; /* وردي فاتح */
+}
+
+.networks {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* المسافة بين الأيقونات */
+}
+
+.networks a {
+    color: #FFFFFF; /* لون الأيقونات أبيض */
+    font-size: 30px; /* حجم الأيقونات */
+    text-decoration: none; /* إزالة الخط تحت الأيقونات */
+}
+
+.networks i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FF69B4; /* خلفية وردية للأيقونات */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* تأثيرات عند التمرير */
+}
+
+.networks a:hover i {
+    transform: scale(1.2); /* تكبير الأيقونة عند التمرير */
+    background-color: #FF1493; /* تغيير اللون عند التمرير */
+}
+
